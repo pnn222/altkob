@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  rest:
+    build:
+      context: ../.
+      dockerfile: build/Dockerfile
+    ports:
+      - 8888:8888
+    working_dir: /project
+    command: python3 /project/project/main.py
