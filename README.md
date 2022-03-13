@@ -3,6 +3,6 @@
 3. файла для запуска в докере в папке build
 
 
-a. task in directory resources
-b. scripts for testing each endpoint in bin directory
-c. docker files in build directory
+- task in directory resources
+- scripts for testing each endpoint in bin directory
+- docker files in build directory
